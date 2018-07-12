@@ -21,3 +21,7 @@
 //   const root = document.getElementById('root');
 //   ReactDOM.render(<Root store={store} />, root);
 // });
+
+import { login, signup } from './util/session_api_util.js'
+ window.login = login;
+ window.signup = signup;
