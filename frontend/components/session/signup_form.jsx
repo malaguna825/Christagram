@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-export default class SigninForm extends React.Component{
+export default class SignUpForm extends React.Component{
 
   constructor(props){
     super(props);
@@ -15,7 +15,7 @@ export default class SigninForm extends React.Component{
 
   handleSubmit(e){
     e.preventDefault();
-    
+
     this.props.signup(this.state);
   }
 
