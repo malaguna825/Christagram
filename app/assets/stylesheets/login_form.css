@@ -1,0 +1,78 @@
+.login-form{
+  width: 300px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    margin:auto;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.linktoSignUp{
+  width: 300px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    margin:auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: #3897f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.logo{
+    font-family: "Pacifico", sans-serif;
+     font-size: 40px;
+     text-align: center;
+     font-weight: 400px;
+     margin: 30px;
+     padding: 10px;
+}
+
+.form-information{
+  width: 260px;
+    padding: 10px;
+    border: 1px solid #F0F0F0;
+    margin: 3px;
+    text-align: left;
+    color: #ccc;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+  }
+
+
+
+.Login-button{
+  background-color: rgb(56,151,240);
+  color: white;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 9px 8px;
+    border-radius: 3px;
+    width:90%;
+    font-family: sans-serif;
+}
+
+
+.space{
+  padding-top: 18px;
+}
+
+.DonthaveAnAccount{
+  font-family: sans-serif;
+  color:black;
+  margin-right: 5px;
+  font-size: 14px;
+  margin: 1ßpx;
+}
+
+.forgotpw{
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-top: 12px;
+}

@@ -13,6 +13,6 @@ end
 private
 
 def user_params
-  params.require(:user).permit(:username, :password, :email)
+  params.require(:user).permit(:username, :password, :email, :full_name)
 end
 end
