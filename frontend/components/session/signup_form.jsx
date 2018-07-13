@@ -15,7 +15,7 @@ export default class SigninForm extends React.Component{
 
   handleSubmit(e){
     e.preventDefault();
-    debugger
+    
     this.props.signup(this.state);
   }
 
