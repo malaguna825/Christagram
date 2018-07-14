@@ -1,0 +1,14 @@
+.homepage-img{
+  height: 25%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homepage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
