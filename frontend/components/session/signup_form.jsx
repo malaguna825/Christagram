@@ -32,16 +32,10 @@ export default class SignUpForm extends React.Component{
           <label className='logo'>Christagram</label>
           <p className='top-msg'>Sign up to see photos and videos from your friends.</p>
           <form onSubmit={this.handleSubmit}>
-
           <input className='form-information' onChange={this.handleChange('email')} type='text' placeholder="Email"/>
-          <br/>
           <input className='form-information' onChange={this.handleChange('full_name')} type='text' placeholder="Full Name"/>
-          <br/>
           <input className='form-information' onChange={this.handleChange('username')} type='text' placeholder="Username"/>
-          <br/>
           <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
-          <br/>
-
           <button className="SignUp-button">Sign up</button>
           <p className='bottom-msg'>By signing up, you agree to Christagram Policy.</p>
           </form>

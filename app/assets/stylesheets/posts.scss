@@ -1,0 +1,99 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.whole-Item {
+  width: 800px;
+  border: 1px solid lightgray;
+  margin-top: 70px;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.picture{
+  padding-top: 2px;
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  display: flex;
+}
+
+.top-username{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.bottom-username{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.post-index{
+  margin: 100px;
+  background-color: #fafafa;
+}
+
+.post-body{
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.username-body{
+ margin-left: 20px;
+  background-color: white;
+display:flex;
+
+}
+
+.fa-heart{
+  font-size: 34px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.fa-comment{
+  font-size: 34px;
+  margin-left: 28px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.fa-bookmark{
+  font-size: 34px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.fa-ellipsis-h{
+  font-size: 18px;
+  // margin-left: 643px;
+  margin-right: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topusername-icon{
+  display: flex;
+  justify-content: space-between;
+  background-color: white
+}
