@@ -1,5 +1,5 @@
 import React from 'react';
-import SignUpForm from './signup_form';
+import SignUpFormContainer from './signup_form_container';
 
 
 class SignUpPage extends React.Component {
@@ -7,7 +7,7 @@ class SignUpPage extends React.Component {
     return (
       <div className='signup-form-signup-page'>
         <div className="login-container">
-          <SignUpForm/>
+          <SignUpFormContainer/>
         </div>
       </div>
     )

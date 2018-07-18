@@ -10,6 +10,14 @@ export default class LoginForm extends React.Component{
       password: ""
     }
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.loginDemo = this.loginDemo.bind(this);
+  }
+
+  loginDemo(e){
+    e.preventDefault();
+    this.setState({ username: "violahahaha", password: "7777777" }, () => {
+      this.props.login(this.state);
+    });
   }
 
   handleSubmit(e){
@@ -33,6 +41,7 @@ export default class LoginForm extends React.Component{
           <input className='form-information' onChange={this.handleChange('username')} type='type' placeholder="Phone number, username, or email"/>
           <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
           <button className="Login-button">login</button>
+          <button onClick={this.loginDemo} className='demo'>Demo User</button>
           <p className="forgotpw">Forgot password?</p>
         </form>
         </div>

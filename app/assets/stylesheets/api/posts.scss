@@ -4,11 +4,12 @@
 
 .whole-Item {
   width: 800px;
-  border: 1px solid lightgray;
+  border: 1.5px solid lightgray;
   margin-top: 70px;
   background-color: white;
   padding-top: 2px;
   padding-bottom: 2px;
+  margin-left: 20%;
 }
 
 .picture{
@@ -57,7 +58,7 @@
 .username-body{
  margin-left: 20px;
   background-color: white;
-display:flex;
+  display:flex;
 
 }
 
@@ -79,6 +80,7 @@ display:flex;
   font-size: 34px;
   margin-left: 600px;
   margin-top: 20px;
+  background-color: white;
 }
 
 .fa-ellipsis-h{

@@ -1,5 +1,6 @@
 import React from 'react';
 import PostIndexItem from './post_index_item';
+import NavBar from '../navBar/nav_bar_container';
 
 class PostIndex extends React.Component {
   componentDidMount(){

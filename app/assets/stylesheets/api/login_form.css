@@ -85,3 +85,17 @@
   padding-top: 12px;
   background-color: white;
 }
+
+.demo{
+  background-color: rgb(56,151,240);
+  color: white;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 3px;
+    width:90%;
+    font-family: sans-serif;
+}

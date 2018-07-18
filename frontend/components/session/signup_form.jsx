@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-export default class SignUpForm extends React.Component{
+
+export default class SignUpForm extends React.Component {
 
   constructor(props){
     super(props);
@@ -10,12 +11,18 @@ export default class SignUpForm extends React.Component{
       username: "",
       password: ""
     }
+    this.login = this.props.login;
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.loginDemo = this.loginDemo.bind(this);
+  }
+
+  loginDemo(e){
+    e.preventDefault();
+    this.props.login({ username: "violahahaha", password: "7777777" });
   }
 
   handleSubmit(e){
     e.preventDefault();
-
     this.props.signup(this.state);
   }
 
@@ -37,6 +44,7 @@ export default class SignUpForm extends React.Component{
                 <input className='form-information' onChange={this.handleChange('username')} type='text' placeholder="Username"/>
                 <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
                 <button className="SignUp-button">Sign up</button>
+                <button onClick={this.loginDemo} className='demo'>Demo User</button>
                 <p className='bottom-msg'>By signing up, you agree to Christagram Policy.</p>
               </form>
         </div>

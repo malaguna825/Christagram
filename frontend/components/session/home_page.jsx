@@ -1,5 +1,5 @@
 import React from 'react';
-import SignUpForm from './signup_form';
+import SignUpFormContainer from './signup_form_container';
 
 
 class HomePage extends React.Component {
@@ -9,7 +9,7 @@ class HomePage extends React.Component {
         <div className='homepage-img'>
           <img src={window.homepage}/>
             <div className='signup-form-homepage'>
-              <SignUpForm/>
+              <SignUpFormContainer/>
             </div>
         </div>
       </div>

@@ -38,3 +38,7 @@ button,
 input[type="submit"] {
   cursor: pointer;
 }
+
+fa-compass:before {
+    content: "\f14e";
+    background-color: #e21c1c;

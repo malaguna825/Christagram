@@ -1,0 +1,107 @@
+.Nav-Bar-Container{
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.instagram-icon{
+  background-color: white;
+  font-size: 40px;
+}
+
+.vl{
+  border-left: 1px solid gray;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.small-logo{
+  font-family: "Pacifico", sans-serif;
+  font-size: 28px;
+   text-align: center;
+   font-weight: 100px;
+   margin: 3px;
+   background-color: white;
+   padding-bottom: 5px;
+}
+
+.search-bar{
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compass-icon{
+  background-color: white;
+
+}
+
+.heart-icon{
+  background-color: white;
+  font-size:25px;
+}
+
+.user-icon{
+  background-color: white;
+  padding-left: 20px;
+}
+
+.fa-compass:before {
+    content: "\f14e";
+    background-color: white;
+    font-size: 28px;
+  }
+
+.fa-heart:before {
+    content: "\f004";
+    background-color: white;
+    font-size: 28px;
+    margin: 0;
+  }
+
+.fa-user:before {
+  content: "\f007";
+  background-color: white;
+  font-size: 28px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    background-color: white;
+}
+
+.right-icons{
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items:baseline;
+margin-bottom: 20px;
+}
+
+.left-icons{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-icons{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 23%;
+  width: 50%;
+}
