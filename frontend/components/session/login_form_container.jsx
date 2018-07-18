@@ -3,8 +3,8 @@ import { login } from '../../actions/session_actions';
 import LoginForm from './login_form';
 
 const mdp =(dispatch) => {
-	return{
-		login:(user)=> dispatch(login(user)),
+	return {
+		login: (user)=> dispatch(login(user)),
 	};
 };
 
