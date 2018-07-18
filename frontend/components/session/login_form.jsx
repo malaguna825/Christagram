@@ -29,7 +29,7 @@ export default class LoginForm extends React.Component{
         <div className='login-form'>
         <label className='logo'>Christagram</label>
         <p className='space'></p>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} className ="form">
           <input className='form-information' onChange={this.handleChange('username')} type='type' placeholder="Phone number, username, or email"/>
           <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
           <button className="Login-button">login</button>
@@ -39,7 +39,7 @@ export default class LoginForm extends React.Component{
 
         <div className='linktoSignUp'>
           <p className='DonthaveAnAccount'>Dont have an account?</p>
-          <Link to={`/signup`}> Sign up</Link>
+          <Link to={`/signup`} className ="link"> Sign up</Link>
         </div>
 
       </div>

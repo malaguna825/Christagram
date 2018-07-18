@@ -1,29 +1,38 @@
 .signup-form{
   width: 300px;
-    padding: 30px;
-    border: 1px solid lightgray;
-    margin:auto;
-    margin-top: 20px;
-    text-align: center;
-    margin-left: 30px;
-
+  padding: 30px;
+  border: 1px solid lightgray;
+  text-align: center;
+  left: 43%;
+  top: 24%;
+  margin: 10px;
+  background-color: white;
 }
 
 .linktologin{
+  border: 1px solid lightgray;
+  color: #3897f0;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
   width: 300px;
-    padding: 30px;
-    border: 1px solid lightgray;
-    margin:auto;
-    font-family: sans-serif;
-    text-align: center;
-    color: #3897f0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 14px;
-    margin-left: 30px;
+  margin: 10px;
+  background-color: white;
 
 }
+
+.signup-form-homepage{
+    text-align: center;
+    color: black;
+
+
+}
+
+.signup-form-signup-page{
+  color:black;
+}
+
 
 .logo{
     font-family: "Pacifico", sans-serif;
@@ -31,7 +40,9 @@
      text-align: center;
      font-weight: 400px;
      margin: 30px;
-     padding-bottom: 30px
+     padding-bottom: 30px;
+     background-color: white;
+
 }
 
 .form-information{
@@ -70,6 +81,7 @@
   color: 	#A0A0A0;
   padding-top: 18px;
   padding-bottom: 12px;
+  background-color: white;
 }
 
 .bottom-msg{
@@ -79,6 +91,8 @@ font-family: "Roboto", sans-serif;
   font-weight: 400px;
   padding-top: 12px;
   padding: 10px;
+  background-color: white;
+
 }
 
 .haveAnAccount{
@@ -87,4 +101,14 @@ font-family: "Roboto", sans-serif;
   margin-right: 5px;
   font-size: 14px;
   margin: 1px;
+  background-color: white
+}
+
+.link{
+  color: #3897f0;
+  background-color: white;
+}
+
+.form{
+  background-color: white;
 }

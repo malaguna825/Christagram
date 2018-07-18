@@ -3,14 +3,16 @@ import { Route } from 'react-router-dom';
 import LoginForm from './session/login_form_container';
 import SignUpForm from './session/signup_form_container';
 import HomePage from './session/home_page';
+import SignUpPage from './session/signup_page';
 import PostIndex from './mainpage/post_index_container';
+import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 const App = () => (
   <div className="homepage">
-    <Route exact path="/" component={HomePage}/>
-    <Route path="/login" component={LoginForm}/>
-    <Route path="/signup" component={SignUpForm}/>
-    <Route path="/posts" component={PostIndex}/>
+    <AuthRoute exact path="/" component={HomePage}/>
+    <AuthRoute exact path="/login" component={LoginForm}/>
+    <AuthRoute exact path="/signup" component={SignUpPage}/>
+    <ProtectedRoute exact path="/posts" component={PostIndex}/>
   </div>
 );
 

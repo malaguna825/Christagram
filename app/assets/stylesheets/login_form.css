@@ -3,6 +3,10 @@
     padding: 30px;
     border: 1px solid lightgray;
     text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    background-color: white;
+
 }
 
 .linktoSignUp{
@@ -17,6 +21,8 @@
     justify-content: center;
     margin-top: 10px;
     font-size: 14px;
+    background-color: white;
+
 }
 
 .logo{
@@ -26,6 +32,8 @@
      font-weight: 400px;
      margin: 30px;
      padding: 10px;
+     background-color: white;
+
 }
 
 .form-information{
@@ -59,6 +67,8 @@
 
 .space{
   padding-top: 18px;
+  background-color: white;
+
 }
 
 .DonthaveAnAccount{
@@ -66,11 +76,12 @@
   color:black;
   margin-right: 5px;
   font-size: 14px;
-  margin: 1ßpx;
+  background-color: white;
 }
 
 .forgotpw{
   font-size: 13px;
   font-family: sans-serif;
   padding-top: 12px;
+  background-color: white;
 }

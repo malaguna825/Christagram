@@ -8,7 +8,9 @@ class HomePage extends React.Component {
       <div className="login-container">
         <div className='homepage-img'>
           <img src={window.homepage}/>
-          <SignUpForm/>
+            <div className='signup-form-homepage'>
+              <SignUpForm/>
+            </div>
         </div>
       </div>
     )
