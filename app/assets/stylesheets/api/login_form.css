@@ -13,7 +13,7 @@
   width: 300px;
     padding: 30px;
     border: 1px solid lightgray;
-    margin:auto;
+    margin: auto;
     font-family: sans-serif;
     text-align: center;
     color: #3897f0;
@@ -42,9 +42,9 @@
     border: 1px solid #F0F0F0;
     margin: 3px;
     text-align: left;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
-    color:black
+    color: black
   }
 
 
@@ -73,7 +73,7 @@
 
 .DonthaveAnAccount{
   font-family: sans-serif;
-  color:black;
+  color: black;
   margin-right: 5px;
   font-size: 14px;
   background-color: white;
@@ -96,6 +96,6 @@
     display: inline-block;
     font-size: 15px;
     border-radius: 3px;
-    width:90%;
+    width: 90%;
     font-family: sans-serif;
 }
