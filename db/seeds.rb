@@ -19,7 +19,7 @@ steph = User.create!({full_name:'Steph Jones',username:'sjones', password:"33333
 beka = User.create!({full_name:'Beka Young',username:'byoung', password:"999999", email:"byoung@gmail.com"} )
 
 post1 = Post.create!({body:'After class HH', user_id: viola.id })
-post1.photo.attach(io: File.open(ActionController::Base.helpers.asset_path('Image0.jpg')), filename: "Image0.jpg")
+post1.photo.attach(io: File.open(ActionController::Base.helpers.asset_path('image0.jpg')), filename: "image0.jpg")
 post2 = Post.create!({body:'summer body ready', user_id: frances.id })
 post2.photo.attach(io: File.open(ActionController::Base.helpers.asset_path('image1.jpg')), filename: "image1.jpg")
 post3 = Post.create!({body:'Crossfit Regional2018', user_id: erin.id })
