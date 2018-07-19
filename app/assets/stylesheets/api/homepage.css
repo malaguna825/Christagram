@@ -1,4 +1,4 @@
-.homepage-img{
+.homepage-img {
   height: 25%;
   width: 25%;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.homepage{
+.homepage {
   height: 1000px;
   background-color:	#fafafa;
 }
@@ -16,5 +16,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }

@@ -1,51 +1,48 @@
-.login-form{
+.login-form {
   width: 300px;
-    padding: 30px;
-    border: 1px solid lightgray;
-    text-align: center;
-    margin: auto;
-    margin-top: 300px;
-    background-color: white;
-
+  padding: 30px;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin: auto;
+  margin-top: 300px;
+  background-color: white;
 }
 
 .linktoSignUp{
   width: 300px;
-    padding: 30px;
-    border: 1px solid lightgray;
-    margin: auto;
-    font-family: sans-serif;
-    text-align: center;
-    color: #3897f0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 14px;
-    background-color: white;
-
+  padding: 30px;
+  border: 1px solid lightgray;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+  color: #3897f0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: white;
 }
 
-.logo{
-    font-family: "Pacifico", sans-serif;
-     font-size: 40px;
-     text-align: center;
-     font-weight: 400px;
-     margin: 30px;
-     padding: 10px;
-     background-color: white;
-
+.logo {
+  font-family: "Pacifico", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400px;
+  margin: 30px;
+  padding: 10px;
+  background-color: white;
 }
 
 .form-information{
   width: 260px;
-    padding: 10px;
-    border: 1px solid #F0F0F0;
-    margin: 3px;
-    text-align: left;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: black
-  }
+  padding: 10px;
+  border: 1px solid #F0F0F0;
+  margin: 3px;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: black;
+}
 
 
 
