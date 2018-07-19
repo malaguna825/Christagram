@@ -2,8 +2,10 @@ class Api::LikesController < ApplicationController
 
   def create
     @like = Like.new(like_params)
+    @like.user_id = current_user.id
     if @like.save
-      render :show
+      @post = @like.post
+      render "api/posts/show"
     end
   end
 
@@ -13,7 +15,7 @@ class Api::LikesController < ApplicationController
   end
 
   def like_params
-    params.require(:like).permit(:post_id, :user_id)
+    params.require(:like).permit(:post_id)
   end
 
 end

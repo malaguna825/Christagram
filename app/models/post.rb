@@ -6,5 +6,7 @@ class Post < ApplicationRecord
     primary_key: :id,
     class_name: :User
 
+  has_many :likes
+
   has_one_attached :photo
 end

@@ -9,7 +9,7 @@ class PostIndex extends React.Component {
 
   render(){
     const post = this.props.posts.map(post =>{
-      return <PostIndexItem post={post} key={post.id}/>;
+      return <PostIndexItem post={post} key={post.id} createLike={this.props.createLike}/>;
     });
     return (
       <div className="post-index">
