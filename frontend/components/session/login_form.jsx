@@ -31,6 +31,12 @@ export default class LoginForm extends React.Component{
   };
 }
 
+displayErrors(){
+  if(this.props.errors.length > 0){
+    return this.props.errors.map(error=><div className="error-divs">{error}</div>);
+  }
+}
+
   render(){
     return (
       <div>
@@ -40,8 +46,9 @@ export default class LoginForm extends React.Component{
         <form onSubmit={this.handleSubmit} className ="form">
           <input className='form-information' onChange={this.handleChange('username')} type='type' placeholder="Phone number, username, or email"/>
           <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
+          {this.displayErrors.bind(this)()}
           <button className="Login-button">login</button>
-          <button onClick={this.loginDemo} className='demo'>Demo User</button>
+          <button onClick={this.loginDemo} className='demo'>Log in as Demo User</button>
           <p className="forgotpw">Forgot password?</p>
         </form>
         </div>

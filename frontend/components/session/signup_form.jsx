@@ -32,6 +32,12 @@ export default class SignUpForm extends React.Component {
     };
   }
 
+  displayErrors(){
+    if(this.props.errors.length > 0){
+      return this.props.errors.map(error=><div className="error-divs">{error}</div>);
+    }
+  }
+
   render(){
     return (
       <div>
@@ -43,8 +49,9 @@ export default class SignUpForm extends React.Component {
                 <input className='form-information' onChange={this.handleChange('full_name')} type='text' placeholder="Full Name"/>
                 <input className='form-information' onChange={this.handleChange('username')} type='text' placeholder="Username"/>
                 <input className='form-information' onChange={this.handleChange('password')} type='password' placeholder="Password"/>
+                {this.displayErrors.bind(this)()}
                 <button className="SignUp-button">Sign up</button>
-                <button onClick={this.loginDemo} className='demo'>Demo User</button>
+                <button onClick={this.loginDemo} className='demo'>Log in as Demo User</button>
                 <p className='bottom-msg'>By signing up, you agree to Christagram Policy.</p>
               </form>
         </div>

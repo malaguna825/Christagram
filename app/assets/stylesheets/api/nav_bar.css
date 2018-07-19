@@ -16,8 +16,8 @@
 .vl{
   border-left: 1px solid gray;
   height: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 32px;
+  margin-right: 23px;
   background-color: white;
 }
 
@@ -45,17 +45,15 @@
 
 .compass-icon{
   background-color: white;
-
 }
 
 .heart-icon{
   background-color: white;
-  font-size:25px;
 }
 
 .user-icon{
   background-color: white;
-  padding-left: 20px;
+  margin-left: 25px;
 }
 
 .fa-compass:before {
@@ -67,8 +65,8 @@
 .fa-heart:before {
     content: "\f004";
     background-color: white;
-    font-size: 28px;
-    margin: 0;
+    font-size: 30px;
+    margin:2px;
   }
 
 .fa-user:before {

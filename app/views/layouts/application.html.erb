@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>Christagram</title>
     <%= csrf_meta_tags %>
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -10,6 +11,7 @@ window.homepage="<%= image_url('homepage_img.png')%>"
 </script>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link rel="shortcut icon" href="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico">
   </head>
   <body>
     <%= yield %>

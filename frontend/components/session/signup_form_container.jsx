@@ -2,6 +2,12 @@ import { connect } from 'react-redux';
 import { signup, login } from '../../actions/session_actions';
 import SignupForm from './signup_form';
 
+const msp = (state) => {
+	return {
+		errors: state.errors.session
+	};
+};
+
 const mdp =(dispatch) => {
 	return {
 		signup: (user)=> dispatch(signup(user)),
@@ -9,4 +15,4 @@ const mdp =(dispatch) => {
 	};
 };
 
-export default connect(null, mdp)(SignupForm);
+export default connect(msp, mdp)(SignupForm);
