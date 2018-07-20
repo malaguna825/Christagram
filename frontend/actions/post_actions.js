@@ -19,10 +19,6 @@ export const receivePost = post => ({
   post
 });
 
-export const receiveLike = like => ({
-  type: RECEIVE_like,
-  like
-});
 
 export const fetchPosts = () =>{
   return (dispatch) => (
@@ -37,6 +33,16 @@ export const fetchPosts = () =>{
 export const createLike = (post_id) => {
   return (dispatch) => (
     APIUtil.createLike(post_id).then(post =>(
+      dispatch(receivePost(post))
+    ), err => (
+      dispatch(receiveErrors(err.responseJSON))
+    ))
+  );
+}
+
+export const deleteLike = (post_id) => {
+  return (dispatch) => (
+    APIUtil.deleteLike(post_id).then(post =>(
       dispatch(receivePost(post))
     ), err => (
       dispatch(receiveErrors(err.responseJSON))
