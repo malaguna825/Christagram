@@ -13,7 +13,7 @@
 }
 
 .vl{
-  border-left: 1px solid gray;
+  border-left: 1.5px solid gray;
   height: 40px;
   margin-left: 32px;
   margin-right: 23px;
@@ -48,6 +48,7 @@
 
 .heart-icon{
   background-color: white;
+    border:  solid white;
 }
 
 .user-icon{
@@ -63,7 +64,7 @@
 
 .fa-heart:before {
     content: "\f004";
-    /* background-color: white; */
+    background-color: white;
     font-size: 30px;
     margin:2px;
   }
@@ -96,7 +97,7 @@ margin-bottom: 20px;
 
 .all-icons{
   background-color: white;
-  display: flex;
+  display:flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 23%;

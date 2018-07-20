@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     resource :session
     resources :posts
     resources :likes
+    resources :comments
   end
 
 root to: "static_pages#root"
