@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-
+user = User.new
   attr_reader :password
 
   validates :username, :password_digest, :full_name, :session_token, presence: true
@@ -9,7 +9,6 @@ class User < ApplicationRecord
   after_initialize :ensure_session_token
 
   has_one_attached :photo
-
 
   def self.find_by_credentials(username, password)
     user = User.find_by(username: username)
